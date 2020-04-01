@@ -1,0 +1,8 @@
+<div class="timer-container">
+  <div class="timer-table">{{ getHours() }} - {{ getMinutes() }} - {{ getSeconds() }}</div>
+  <div class="timer-actions">
+    <button class="action__item" #startBtn (click)="startStopTimer()">{{ currState }}</button>
+    <button class="action__item" #waitBtn>Wait</button>
+    <button class="action__item" (click)="resetTimer()">Reset</button>
+  </div>
+</div>

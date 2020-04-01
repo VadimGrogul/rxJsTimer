@@ -1,0 +1,28 @@
+.timer-container {
+    width: 295px;
+    margin: 100px auto;
+}
+
+.timer-table {
+    font-size: 62px;
+    color: blueviolet;
+}
+
+.timer-actions {
+    display: flex;
+}
+
+.action__item {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+        box-shadow: 0 0 5px 0 silver;
+    }
+}
